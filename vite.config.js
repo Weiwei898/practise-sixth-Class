@@ -25,7 +25,7 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法:
   // base: '/Repository 的名稱/'
-  base: '/practise-fifth-Class/',//這裡要記得改成GitHub的Repositories名子by 2025/08/13筆記
+  base: '/practise-sixth-Class/',//這裡要記得改成GitHub的Repositories名子by 2025/08/13筆記
 
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
