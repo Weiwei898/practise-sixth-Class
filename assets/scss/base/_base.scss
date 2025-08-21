@@ -1,0 +1,14 @@
+/* 標籤的基本樣式 */
+body {
+  letter-spacing: 0.02em;//bootstrap沒有相關的設定可以保留
+}
+
+img { //.img-fluid 有相同功能，如果不設定在標籤上，可單用此class，設定在單一個img
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}

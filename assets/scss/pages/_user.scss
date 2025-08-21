@@ -1,0 +1,18 @@
+.user-img {
+    height: 120px;
+    width: 120px;
+}
+
+.row-me-12 {//破版暫時排除法
+    margin-right: 12px;
+}
+
+/**/
+*,*::before,*::after{
+    box-sizing: border-box;/*bxz:bb*/
+	/*outline: solid 1px;測試範圍用*/
+}
+
+.mb-12px {
+    margin-bottom: 12px;
+}

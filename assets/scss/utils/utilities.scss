@@ -1,0 +1,12 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size"://改要帶入RWD的屬性，這次是字體大小
+      map-merge(
+        map-get($utilities, "font-size"),/*改要帶入RWD的屬性，這次是字體大小*/
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
