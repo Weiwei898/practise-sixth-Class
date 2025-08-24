@@ -1,0 +1,41 @@
+@media (min-width: 992px) {
+  .thead-sm { 
+    display: none; 
+    }
+  .thead-lg { 
+    display: table-header-group; 
+    }
+
+    .h1-lg {
+      font-size: $font-size-base * 3; // 48px
+    }
+
+    .h2-lg {
+      font-size: $font-size-base * 2; // 32px
+    }
+
+    .h3-lg {
+      font-size: $font-size-base * 1.75 // 28px
+    }
+
+    .h4-lg.h4-lg {
+      font-size: $font-size-base * 1.5; // 24px
+    }
+
+    .h5-lg {
+      font-size: $font-size-base * 1.25; // 20px
+    }
+
+    .h6-lg {
+      font-size: $font-size-base * 1.125; // 18px
+    }
+
+    .h7-lg.h7-lg.h7-lg {
+      font-size: $font-size-base; // 16px
+    }
+
+    .small-lg {
+        font-size: $font-size-base * 0.875; // 14px
+    }
+
+}

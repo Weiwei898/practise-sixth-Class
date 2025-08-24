@@ -3,9 +3,6 @@
     width: 120px;
 }
 
-.row-me-12 {//破版暫時排除法
-    margin-right: 12px;
-}
 
 /**/
 *,*::before,*::after{
@@ -13,6 +10,45 @@
 	/*outline: solid 1px;測試範圍用*/
 }
 
-.mb-12px {
-    margin-bottom: 12px;
+.modal-header-padding {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.modal-footer-padding {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.form-floating-label-color.form-floating-label-color {
+    color: $natural-50;
+}
+
+
+
+
+.tab-btn-bg {
+    .nav-link {
+        background-color: $white;
+    }
+   
+}
+
+.mb-56px {
+    margin-bottom: 56px;
+}
+
+.thead-sm { 
+    display: table-header-group; 
+}
+.thead-lg { 
+    display: none; 
+}
+
+.small.small {
+    font-size: $font-size-base * 0.875; // 14px
 }
